@@ -60,10 +60,7 @@ public class DevMedicoAplicacao {
         if (this.medicos.isEmpty()) {
             System.out.println("Nenhum médico cadastrado.");
         } else {
-            List var10000 = this.medicos;
-            PrintStream var10001 = System.out;
-            Objects.requireNonNull(var10001);
-            var10000.forEach(var10001::println);
+            this.medicos.forEach(System.out::println);
         }
 
     }

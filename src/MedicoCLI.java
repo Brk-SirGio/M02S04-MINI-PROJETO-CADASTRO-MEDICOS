@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//INTERFACE
 public class MedicoCLI {
     private final Scanner scanner;
 
